@@ -1,0 +1,8 @@
+[build]
+command = "composer install --no-dev --no-scripts --prefer-dist && npm run build"
+publish = "public/build"
+
+[build]
+  command = "composer install --no-dev --no-scripts --prefer-dist && npm run build"
+  publish = "public/build"
+
